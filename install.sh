@@ -1,5 +1,5 @@
 pacman -S - < pkglist.txt
-echo intalling the pkg... wait
+echo intalling the pkg...
 pacman -Syu
 echo uptading system...
 cp -a conf/. ~/.config/
