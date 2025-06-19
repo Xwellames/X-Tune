@@ -1,0 +1,13 @@
+pacman -S - < pkglist.txt
+echo intalling the pkg... wait
+
+pacman -Syu
+echo uptading system...
+
+cp -a conf/. ~/.config/
+echo configur system...
+
+cp -r Wallpaper ~/.config/
+echo adding wallpapers...
+
+echo all done! please reboot...
